@@ -1,0 +1,101 @@
+				MANUAL DE INSTRUÇÕES 
+			     >>>>>>>> SPACEWAR <<<<<<<<
+			  
+	 O universo está em guerra, e você é o único que pode salvar seu planeta.
+	 Como último guerreiro sobrevivente, o Imperador Gubi lhe designou uma única tarefa: combater
+	Luigor, o mais forte oponente do planeta vizinho, cuja única missão é destruir o Planeta 		
+	Vermelho. Enquanto isso, o Imperador prepara a armadilha no planeta. Você deve destruir o
+	inimigo.
+	 
+	 Para embarcar nessa missão, você deve seguir os seguintes passos: 
+	 
+	 			PREPARAÇÃO DO JOGO
+	 			
+	1. Baixe o arquivo tar que contém os componentes do programa.
+	
+	2. Abra o terminal de seu computador e digite:
+	
+			tar -xvf SpaceWar.tar
+	
+	Isso irá descompactar o arquivo.
+	
+	3. Entre na pasta SpaceWar baixada, ela deve conter:
+	
+		- xwc.h, xwc.c;
+		- imagens .xpm;
+		- funcionamento_jogo.h, funcionamento_jogo.c;
+		- ep2.c;
+		- arquivos Makefile
+		- arquivos de configuração
+		
+	 Esses serão seus instrumentos no combate. 
+	 
+	 4. No terminal do computador, mude o diretório (cd) para a pasta SpaceWar e digite:
+	 
+	 	make
+	 	
+	 Esse comando irá compilar o programa, e gerar o executável 'ep2'.
+		
+	5. Encontre alguém para jogar como seu adversário, Luigor.
+		
+	 Agora o jogo está pronto para ser executado.
+	 
+	 			INICIANDO BATALHA
+	 
+	 1. Para rodar o programa, digite no terminal:
+	 
+	 	./ep2
+	 	
+	 Se tudo estiver correto, esse comando irá abrir uma janela, que é onde a batalha irá 		 
+	 acontecer. Digite ENTER para começar. Você deve ter:
+	 
+	 	- O Planeta Vermelho, no centro;
+	 	- A nave verde, do inimigo Luigor;
+	 	- Sua nave, a vermelha;
+	 	- Projéteis iniciais. Você deve evitar colidir com eles;
+	 	
+	 2. Comandos:
+	 	i. Nave vermelha: 
+	 	Você irá utilizar as SETAS do teclado para se mover da seguinte forma:
+	 	 - cima/baixo = controla a velocidade da sua nave, acelerando e desacelerando, 			 
+	 	 respectivamente;
+	 	 - direita/esquerda = gira a nave nas respectivas direções;
+	 	Para ATIRAR, use J.
+	 	
+	 	ii. Nave verde:
+	 	Seu inimigo irá utilizar as letras A, S, D, W para se mover da seguinte forma:
+	 	- W/S = controla a velocidade da sua nave, acelerando e desacelerando, 			 
+	 	respectivamente;
+	 	- A/D = gira a nave nas respectivas direções;
+	 	Para ATIRAR, use V.
+	 	
+	 3. Objetivo: 
+	  Para salvar o Planeta Vermelho, você deve destruir o inimigo com seus tiros ou 
+	 fazer com que ele colida. 
+	 
+	  Existem 3 possíveis finais:
+	  - Você atirou no seu inimigo ou o inimigo colidiu com o planeta e, consequentemente, com a 		  
+	  armadilha do imperador: Parabéns! O planeta foi salvo.
+	  - Você levou um tiro ou colidiu com o planeta: Você perdeu a batalha.
+	  - O tempo acabou: Trégua. A batalha será adiada.
+	  
+	  Ao final de cada partida, uma tela indicará o placar. Se quiser jogar de novo, pressione
+	  ENTER. 
+	  
+	  
+	  Jogo realizado por: 
+	  Fernanda T. Itoda
+	  Ígor Barberino
+	  Luis Vitor Zerkowski
+	  
+	 	 
+
+	 
+
+	 	
+	 	
+	
+	
+
+
+
